@@ -1,0 +1,96 @@
+﻿@{
+    var src = @"https://common-admin-cdn.atlassian.com/atlassian-id/6.5.4/lib/@atlassian/herment/target/herment.min.js";
+}
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]--><!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Account settings - Atlassian account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//aui-cdn.atlassian.com/aui-adg/5.8.3/css/aui.min.css" media="all">
+    <link rel="stylesheet" href="//aui-cdn.atlassian.com/aui-adg/5.8.3/css/aui-experimental.min.css" media="all">
+    <link rel="stylesheet" href="https://common-admin-cdn.atlassian.com/atlassian-id/6.5.4/layout/base/base.less.css" media="all">
+    <link rel="shortcut icon" href="https://common-admin-cdn.atlassian.com/atlassian-id/6.5.4/images/favicon.ico">
+    <link rel="stylesheet" href="https://common-admin-cdn.atlassian.com/atlassian-id/6.5.4/layout/logged-in/logged-in.less.css" media="all">
+    <link rel="stylesheet" href="https://common-admin-cdn.atlassian.com/atlassian-id/6.5.4/page/profile/profile.less.css" media="all">
+    <script>var require = { baseUrl: 'https:\/\/common-admin-cdn.atlassian.com\/atlassian-id\/6.5.4', config: { 'util/context-path': { contextPath: '\/manage' }, 'util/app-config': { config: { "avatar": { "base": { "url": "/avatar" }, "img": { "base": { "url": "https://avatar-cdn.atlassian.com" } } }, "close": { "account": { "enabled": false } }, "hamlet": { "server": "https://hamlet.atlassian.com" }, "login": { "url": "https://id.atlassian.com/login" }, "logout": { "url": "https://id.atlassian.com/logout" }, "management": { "url": "https://id.atlassian.com/manage" }, "profile": { "url": "https://id.atlassian.com/profile" } } }, 'util/i18n': { i18n: { "com.atlassian.id.profile.account.success": "Account settings updated successfully", "password.strength.level.5": "Password strength: Strong", "change-email.resent.title": "Verification email has been resent", "show.password": "Show password", "password.strength.level.4": "Password strength: Good", "change-email.success.flag.title": "Your email address has been verified and is now successfully updated.", "password.strength.level.3": "Password strength: Fair", "password.strength.unavailable": "Password strength unavailable", "password.strength.level.2": "Password strength: Weak", "com.atlassian.profile.password.success": "Password changed successfully", "logged.out.dialog.reason.password.changed": "Your session has expired because you changed your password. Please log in again to continue.", "com.atlassian.id.billing.success": "Billing details updated successfully", "change-email.pending.flag.title": "Waiting for email change verification", "password.strength.level.1": "Password strength: Very weak", "password.strength.no.value": "" } } } };</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js"></script>
+    <script src="https://common-admin-cdn.atlassian.com/atlassian-id/6.5.4/require-config.js"></script>
+    <script src="https://common-admin-cdn.atlassian.com/atlassian-id/6.5.4/lib/babel-es6-polyfill/browser-polyfill.js"></script>
+    <script src="@src"></script>
+    <script src="https://common-admin-cdn.atlassian.com/atlassian-id/6.5.4/lib/browser-metrics/dist/probe-min.js"></script>
+    <script src="https://common-admin-cdn.atlassian.com/atlassian-id/6.5.4/lib/browser-metrics/dist/collector-min.js" async></script>
+    <script src="https://common-admin-cdn.atlassian.com/atlassian-id/6.5.4/lib/browser-metrics-aa-beacon/dist/internal/browser-metrics-aa-beacon.js"></script>
+    <script src="https://common-admin-cdn.atlassian.com/atlassian-id/6.5.4/lib/browser-metrics-aa-beacon/dist/internal/browser-metrics-aa-beacon/impl.js" async></script>
+    <script>window.AJS = {}; window.AJS.EventQueue = []; require(['internal/browser-metrics', 'herment'], function (metrics, herment) { metrics.start({ key: 'aid.account-settings', isInitial: true }); herment({ storage_key: 'aid', product: 'aid', subproduct: 'manage' }).start(); });</script>
+</head>
+<body class="aui-page-default">
+    <div id="page">
+        <header id="header" role="banner">
+            <nav class="aui-header aui-dropdown2-trigger-group aui-header-logo-hires" role="navigation">
+                <div class="aui-header-inner">
+                    <div class="aui-header-primary">
+                        <h1 id="logo" class="aui-header-logo aui-header-logo-atlassian">
+                            <a href="https://id.atlassian.com/manage"><span class="aui-header-logo-device">Atlassian account</span></a>
+                        </h1>
+                    </div><div class="aui-header-secondary"><ul class="aui-nav"><li><a href="https://id.atlassian.com/logout">Log out</a></li></ul></div>
+                </div><!-- .aui-header-inner-->
+            </nav><!-- .aui-header -->
+        </header>
+        <!-- #header -->
+        <section id="content" role="main">
+            <header class="aui-page-header">
+                <div class="aui-page-header-inner">
+                    <div class="aui-page-header-image">
+                        <span class="aui-avatar aui-avatar-large">
+                            <span class="aui-avatar-inner">
+                                <img src="https://avatar-cdn.atlassian.com/61928738fca15fb15777225d04cffd0b" />
+                            </span>
+                        </span>
+                    </div>
+                <!-- .aui-page-header-image -->
+                <div class="aui-page-header-main">
+                    <h1 class="mainHeading">Manage your account</h1>
+                </div>
+                <!-- .aui-page-header-main -->
+                </div><!-- .aui-page-header-inner -->
+            </header>
+        <!-- .aui-page-header -->
+        <div class="aui-page-panel">
+                <div class="aui-page-panel-inner">
+                    <div class="aui-page-panel-nav aid-sidebar"><nav class="aui-navgroup aui-navgroup-vertical"><div class="aui-navgroup-inner"><div class="aui-nav-heading"><strong>General</strong></div><ul class="aui-nav"><li class="aui-nav-selected"><a href="https://id.atlassian.com/manage/account-settings">Account settings</a></li><li><a href="https://id.atlassian.com/manage/change-email">Change email address</a></li><li><a href="https://id.atlassian.com/manage/applications">Services</a></li></ul><div class="aui-nav-heading"><strong>Security</strong></div><ul class="aui-nav"><li><a href="https://id.atlassian.com/manage/change-password">Change password</a></li></ul><div class="aui-nav-heading"><strong>Billing</strong></div><ul class="aui-nav"><li><a href="https://id.atlassian.com/manage/billing">Billing details</a></li></ul></div></nav></div><!-- .aui-page-panel-nav --><section class="aui-page-panel-content">
+                        <h2>Account settings</h2><div class="aui-group account-settings">
+                            <div class="aui-item"><form id="account-settings-form" class="aui" action="#" method="post"><div class="field-group"><label for="email">Email</label><span id="email" class="field-value">asnkee@gmail.com</span> <a href="https://id.atlassian.com/manage/change-email" class="account-settings-change-email">Change email</a></div><div class="field-group"><label for="fullName">Full name<span class="aui-icon icon-required"></span></label><input class="text" type="text" name="fullName" id="fullName" value="asnkee" disabled autofocus /></div><div class="field-group"><label for="title">Job title</label><input class="text" type="text" name="title" id="title" disabled /></div><div class="field-group"><label for="org">Organization</label><input class="text" type="text" name="org" id="org" disabled /></div><div class="buttons-container"><div class="buttons"><input type="submit" class="aui-button aui-button-primary" aria-disabled="true" disabled="disabled" value="Save" /></div></div></form></div><div class="aui-item avatar-panel">
+                                <div class="user-avatar-form">
+                                    <span class="aui-avatar aui-avatar-xxxlarge"><span class="aui-avatar-inner"><img src="https://avatar-cdn.atlassian.com/61928738fca15fb15777225d04cffd0b" /></span></span><a href="#edit-avatar" class="aui-button aui-button-link avatar-picker-trigger" type="button" tabindex="0">Change avatar</a><span class="gravatar-notice">Current avatar via <a href="http://gravatar.com/">Gravatar</a></span><div class="avatar-delete-overlay">
+                                        <button class="aui-icon aui-icon-small aui-iconfont-remove avatar-delete-trigger" title="Remove the avatar" type="button">Remove the avatar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><!-- .aui-page-panel-content -->
+                </div><!-- .aui-page-panel-inner -->
+            </div><!-- .aui-page-panel -->
+        </section><!-- #content --><footer id="footer" role="contentinfo"><div class="footer-body"><ul><li><a target="_blank" href="https://www.atlassian.com/end-user-agreement">Terms of use</a></li><li><a target="_blank" href="https://support.atlassian.com">Support</a></li><li><a target="_blank" href="https://www.atlassian.com/company/privacy">Privacy policy</a></li></ul><div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div></div></footer><!-- #footer -->
+    </div><!-- #page -->
+    <script>
+        require(['layout/logged-in/logged-in'],
+            function (layout) {
+                layout.onReady({
+                    changeEmailUrl: 'https:\/\/id.atlassian.com\/manage\/change-email',
+                    changeEmailRestUrl: 'https:\/\/id.atlassian.com\/manage\/rest\/change-email',
+                    newEmail: null,
+                    showSuccess: false,
+                    csrfToken: 'f3bd706b09b4d2492e55bde80735b14fb8ea739f',
+                    billingCsrfToken: '1c93bc7fe69a4af3da66475aee0a99974bbcaf7161230c42059cfb4106835a5b',
+                    continueUrl: 'https:\/\/id.atlassian.com\/profile\/profile.action',
+                    user: { "email": "asnkee@gmail.com", "fullName": "asnkee", "emailHash": "61928738fca15fb15777225d04cffd0b", "title": null, "org": null }
+                });
+            });
+    </script>
+    <button class="aui-button aid-nav-trigger"><span class="aui-icon aui-icon-large aui-iconfont-appswitcher"></span><span class="aui-icon aui-icon-large aui-iconfont-close-dialog"></span></button>
+</body>
+</html>

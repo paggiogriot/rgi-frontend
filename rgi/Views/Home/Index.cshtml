@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!-- http://bootsnipp.com/snippets/featured/stylish-input-using-icon-font -->
+<div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+        @using (Html.BeginForm("Index", "Search", new { }, FormMethod.Get, new { @class = "form-horizontal", role = "search", id = "imaginary_container"})) { 
+            <div class="input-group stylish-input-group">
+                <input type="text" class="form-control" placeholder="Search" name="q">
+                <span class="input-group-addon">
+                    <button type="submit">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="row">
+    <div class="main col-xs-9">
+        @{Html.RenderAction("MainContent");}
+    </div>
+    <div class="sidebar col-xs-3">
+        @{Html.RenderAction("SideBar01");}
+    </div>
+    <div class="sidebar col-xs-3">
+        @{Html.RenderAction("SideBar02");}
+    </div>
+</div>

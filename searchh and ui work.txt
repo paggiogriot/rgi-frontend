@@ -1,0 +1,38 @@
+https://support.microsoft.com/en-us/kb/307322
+
+https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=github+Kraken&start=30
+
+https://github.com/Kevin-Bronsdijk/LogicApps-Monitoring
+https://github.com/Kevin-Bronsdijk/SeaMist/
+http://devslice.net/2015/04/microsoft-and-elasticsearch/
+
+https://www.elastic.co/elasticon/2015/sf/powering-real-time-search-at-microsoft
+http://devslice.net/2015/04/microsoft-and-elasticsearch/
+
+https://www.codetutorial.io/loopback-and-angularjs-first-tutorial/
+http://blog.jeffdouglas.com/2015/07/07/roll-your-own-api-vs-loopback/
+http://www.capitalone.io/blog/contrasting-enterprise-nodejs-frameworks/
+https://github.com/vincent-petithory/kraken
+
+
+http://startbootstrap.com/template-overviews/simple-sidebar/
+
+
+/////////////////////////////////////////////////  footer work \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+http://www.bootply.com/fUltcZAv78
+http://bootsnipp.com/snippets/featured/mega-menu-slide-down-on-hover-with-carousel
+http://code.tutsplus.com/tutorials/how-to-build-a-kick-butt-css3-mega-drop-down-menu--net-15129
+http://bootsnipp.com/snippets/NBxlm
+
+http://bootsnipp.com/snippets/6OvP <-- add to favorites or watch list
+http://bootsnipp.com/snippets/Zlzny <-- add to favorites or watch list
+
+Sidebar Left or Right using Bootstrap
+http://codepen.io/Sunilc9/pen/acJkz
+
+Responsive Sidebar Menu
+http://bootsnipp.com/snippets/featured/responsive-sidebar-menu
+
+
+http://getbootstrap.com/examples/offcanvas/#
+http://www.bootply.com/qq78PQIf44
