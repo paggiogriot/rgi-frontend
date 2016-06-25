@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace rgi.Controllers
 {
-    public class DjezController : Controller
+    public class ItemsController : Controller
     {
         public ActionResult Index()
         {
