@@ -1,9 +1,9 @@
 ﻿@{
-    ViewBag.Title = "Settings Landing Page";
+    ViewBag.Title = "Payments Landing Page";
 }
 
 <div class="row">
-    <div class="col-xs-12"><h1>Settings menu</h1></div>
+    <div class="col-xs-12"><h1>Payment menu</h1></div>
 </div>
 
 <div class="row">
@@ -12,11 +12,11 @@
             <div class="navbar navbar-default" role="navigation">
                 <div class="navbar-collapse collapse sidebar-navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Change email address</a></li>
-                        <li><a href="#">Change Password</a></li>
-                        <li><a href="#">Location</a></li>
-                        <li><a href="#">Billing Details</a></li>
-                        <li><a href="#">Payments</a></li>
+                        <li>@Html.ActionLink("All Payments", "seller_allpayments", new { }, new { @class = "subnavicon-open" })</li>
+                        <li>@Html.ActionLink("Pending Payments", "seller_pendingpayments", new { }, new { @class = "subnavicon-open" })</li>
+                        <li>@Html.ActionLink("Awaiting Payments", "bidder_awaitingpayments", new { }, new { @class = "subnavicon-sold" })</li>
+                        <li>@Html.ActionLink("Sent Payments", "bidder_sentpayments", new { }, new { @class = "subnavicon-open" })</li>
+                        <li>@Html.ActionLink("Received Payments", "seller_receivedpayments", new { }, new { @class = "subnavicon-open" })</li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
